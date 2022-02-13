@@ -30,7 +30,7 @@ def genArray(size, neg_pos):
         randomArray[i] = (int(math.floor(random.randrange(neg_pos*-1,neg_pos+1))))
     return randomArray    
 # Please note that this takes considerable amount of runtime for large arrays (usually few seconds)
-# To verify the output data in the array run the line below uncomment out and run the line below
+# To verify the output data in the array uncomment and run the line below
 # print(genArray(1000000,1000000)) # This will create an array 1 million indexes big and fill it with whole numbers given the minimum possible and maximum possible values as -1000000 and 1000000 respectively
 
 
