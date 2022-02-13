@@ -8,4 +8,4 @@ The fastest whole number sorting algorithm!
 ## Note
 This algorithm works best with multiple recurring numbers; eliminating the duplicates but storing their occurrence count and repositioning them in an ordered form. Hence it cuts down on the time it would take complete the sorting as opposed to checking out the order of every single pair in the input array.
 
-# Please star my project 🙂
+### 🙂 Please give my project a star ⭐
