@@ -30,7 +30,7 @@ const genArray = (size, negPos) => {
     return randomArray;
 };
 // Please note that this takes considerable amount of runtime for large arrays (usually few seconds)
-// To verify the output data in the array run the line below uncomment out and run the line below
+// To verify the output data in the array uncomment and run the line below
 // console.log(genArray(10000000, 1000000)); // This will create an array 1 millions indexes big and fill it with whole numbers given the minimum possible and maximum possible values as -1000000 and 1000000 respectively
 
 
