@@ -17,7 +17,7 @@
  */
 
 /**
- * This populates an an array of a specified size with randomly generated whole numbers given the min and max range as negPos
+ * This populates an array of a specified size with randomly generated whole numbers given the min and max range as negPos
  * @param {Number} size 
  * @param {Number} negPos 
  * @returns Array<Number>
