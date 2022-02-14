@@ -20,7 +20,7 @@ import math
 import random
 
 def genArray(size, neg_pos):
-    '''This populates an an array of a specified size with randomly generated whole numbers given the min and max range as neg_pos
+    '''This populates an array of a specified size with randomly generated whole numbers given the min and max range as neg_pos
     :param size: int
     :neg_pos: int
     :return: list[int]
