@@ -35,11 +35,11 @@ const genArray = (size, negPos) => {
 
 
 /**
- * EmSort, this sorts an array of whole numbers, be it negative or positive using hash keys
+ * AroSort, this sorts an array of whole numbers, be it negative or positive using hash keys
  * @param {Array<Number>} array 
  * @returns Array<Number>
  */
-const emSort = (array) => {
+const aroSort = (array) => {
     if (array === null || array === undefined) {
         return [];
     } else if (array.length <= 1) {
@@ -112,6 +112,6 @@ const emSort = (array) => {
 
 let unsortedArray = genArray(1000000, 1000000);
 
-// console.log('Sorted', emSort(unsortedArray));
+// console.log('Sorted', aroSort(unsortedArray));
 
-emSort(unsortedArray);
+aroSort(unsortedArray);
