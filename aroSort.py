@@ -34,9 +34,9 @@ def genArray(size, neg_pos):
 # print(genArray(1000000,1000000)) # This will create an array 1 million indexes big and fill it with whole numbers given the minimum possible and maximum possible values as -1000000 and 1000000 respectively
 
 
-def emSort(array):
+def aroSort(array):
     '''
-    EmSort, this sorts an array of whole numbers, be it negative or positive using hash keys
+    AroSort, this sorts an array of whole numbers, be it negative or positive using hash keys
     :param array: list[int]
     :return: list[int]
     '''
@@ -102,6 +102,6 @@ def emSort(array):
 
 unsortedArray = genArray(1000000, 1000000)
 
-# print('Sorted', emSort(unsortedArray))
+# print('Sorted', aroSort(unsortedArray))
 
-emSort(unsortedArray)
+aroSort(unsortedArray)
