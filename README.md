@@ -1,8 +1,8 @@
-# EmSort
+# AroSort
 The fastest whole number sorting algorithm!
 
 ## The Algorithm
-  EmSort is a whole number sorting algorithm based on hash tables, the fact that every hash key must be unique and the ability for hash tables to store the occurrence count of a hash key in its paired value.
+  AroSort is a whole number sorting algorithm based on hash tables, the fact that every hash key must be unique and the ability for hash tables to store the occurrence count of a hash key in its paired value.
   It takes advantage of the nature of objects and the way they are arranged in memory. With languages like JavaScript automatically arranging its keys and Python's ability to sort keys using the sorted(Object.keys()) function call, this algorithm takes that into account and uses it to place each number in its ordered position in ascending order.
   
 ## Note
