@@ -110,8 +110,4 @@ const aroSort = (array) => {
     }
 };
 
-let unsortedArray = genArray(1000000, 1000000);
-
-// console.log('Sorted', aroSort(unsortedArray));
-
-aroSort(unsortedArray);
+export default aroSort;
