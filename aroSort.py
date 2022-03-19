@@ -16,23 +16,6 @@
     limitations under the License.
 '''
 
-import math
-import random
-
-def genArray(size, neg_pos):
-    '''This populates an array of a specified size with randomly generated whole numbers given the min and max range as neg_pos
-    :param size: int
-    :neg_pos: int
-    :return: list[int]
-    '''
-    randomArray = [0] * size
-    for i in range(size):
-        randomArray[i] = (int(math.floor(random.randrange(neg_pos*-1,neg_pos+1))))
-    return randomArray    
-# Please note that this takes considerable amount of runtime for large arrays (usually few seconds)
-# To verify the output data in the array uncomment and run the line below
-# print(genArray(1000000,1000000)) # This will create an array 1 million indexes big and fill it with whole numbers given the minimum possible and maximum possible values as -1000000 and 1000000 respectively
-
 
 def aroSort(array):
     '''
@@ -67,7 +50,7 @@ def aroSort(array):
             else:
                 # If a duplicate positive number is found, increment its occurrence count
                 if element in pos:
-                    pos[element] +=1
+                    pos[element] += 1
                 else:
                     # If a positive number is found, then its passed into the pos hash table
                     pos[element] = 1
@@ -85,23 +68,17 @@ def aroSort(array):
                 else:
                     sortedArray[negLength - counter] = int(numValue) * -1
                     counter += 1
-        
+
         # If positive numbers did occur...
         if len(pos) > 0:
             # Loop through the sorted keys of the neg hash table and assign their values to their rightful sorted position in the sortedArray
             for numValue in sorted(pos.keys()):
                 if pos[numValue] > 1:
-                        for i in range(pos[numValue]):
-                            sortedArray[negLength] = int(numValue)
-                            negLength += 1
+                    for i in range(pos[numValue]):
+                        sortedArray[negLength] = int(numValue)
+                        negLength += 1
                 else:
                     sortedArray[negLength] = int(numValue)
                     negLength += 1
 
         return sortedArray
-
-unsortedArray = genArray(1000000, 1000000)
-
-# print('Sorted', aroSort(unsortedArray))
-
-aroSort(unsortedArray)

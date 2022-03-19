@@ -17,24 +17,6 @@
  */
 
 /**
- * This populates an array of a specified size with randomly generated whole numbers given the min and max range as negPos
- * @param {Number} size 
- * @param {Number} negPos 
- * @returns Array<Number>
- */
-const genArray = (size, negPos) => {
-    let randomArray = [];
-    for (let i = 0; i < size; i++) {
-        randomArray[i] = ((Math.floor(Math.random() * ((negPos * 2) + 1))) - negPos);
-    }
-    return randomArray;
-};
-// Please note that this takes considerable amount of runtime for large arrays (usually few seconds)
-// To verify the output data in the array uncomment and run the line below
-// console.log(genArray(10000000, 1000000)); // This will create an array 1 millions indexes big and fill it with whole numbers given the minimum possible and maximum possible values as -1000000 and 1000000 respectively
-
-
-/**
  * AroSort, this sorts an array of whole numbers, be it negative or positive using hash keys
  * @param {Array<Number>} array 
  * @returns Array<Number>
