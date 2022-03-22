@@ -12,4 +12,4 @@ The fastest integer sorting algorithm!
 
 This algorithm works best with multiple recurring numbers; eliminating the duplicates but storing their occurrence count and repositioning them in an ordered form. Hence it cuts down on the time it would take to complete the sorting as opposed to checking out the order of every single pair in the input array.
 
-### 🙂 Please give my project a star ⭐
+### 🙂 Please give this project a star ⭐

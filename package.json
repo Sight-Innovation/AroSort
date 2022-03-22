@@ -2,7 +2,7 @@
   "name": "arosort",
   "version": "1.0.0",
   "description": "A new sorting algorithm inspired by hash tables",
-  "main": "AroTable.js",
+  "main": "aroSort.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,14 +11,15 @@
     "url": "git+https://github.com/Aro1914/AroSort.git"
   },
   "keywords": [
-    "AroTable",
-    "AroSort"
+    "Sorting",
+    "AroSort",
+    "Algorithm"
   ],
-  "author": "Emmanuel Agbavwe",
+  "author": "Sight-Innovation LLC",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Aro1914/AroSort/issues"
+    "url": "https://github.com/Sight-Innovation/AroSort/issues"
   },
   "type": "module",
-  "homepage": "https://github.com/Aro1914/AroSort#readme"
+  "homepage": "https://github.com/Sight-Innovation/AroSort#readme"
 }

@@ -1,7 +1,7 @@
 /**
  *   Description: Sorting algorithm based on hash tables.
  * 
- *   Copyright 2022 Emmanuel Agbavwe to Present.
+ *   Copyright 2022 Sight-Innovation LLC to Present.
  *
  *   Licensed under the Apache License, Version 2.0 (the "License");
  *   you may not use this file except in compliance with the License.
