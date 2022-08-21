@@ -83,7 +83,7 @@ const aroSort = (array) => {
         if (Object.keys(pos).length) {
             // Loop through the presorted keys of the pos hash table and assign their values to their rightful sorted position in the sorted array
             for (const numValue in pos) {
-                if (pos[numValue] > 1) {
+                /*if (pos[numValue] > 1) {
                     for (let i = 0; i < pos[numValue]; i++) {
                         //sorted[negLength] = Number(numValue);
                         //negLength++;
@@ -93,6 +93,10 @@ const aroSort = (array) => {
                     //sorted[negLength] = Number(numValue);
                     //negLength++;
                     sorted.push(Number(numValue));
+                }*/
+                while(pos[numValue] > 0){
+                    sorted.push(Number(numValue));
+                    pos[numValue]--;
                 }
             }
         }
