@@ -79,12 +79,14 @@ const aroSort = (array) => {
             for (const numValue in pos) {
                 if (pos[numValue] > 1) {
                     for (let i = 0; i < pos[numValue]; i++) {
-                        sorted[negLength] = Number(numValue);
-                        negLength++;
+                        //sorted[negLength] = Number(numValue);
+                        //negLength++;
+                        sorted.push(Number(numValue));
                     }
                 } else {
-                    sorted[negLength] = Number(numValue);
-                    negLength++;
+                    //sorted[negLength] = Number(numValue);
+                    //negLength++;
+                    sorted.push(Number(numValue));
                 }
             }
         }
