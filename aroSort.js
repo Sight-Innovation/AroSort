@@ -63,12 +63,14 @@ const aroSort = (array) => {
             for (const numValue in neg) {
                 if (neg[numValue] > 1) {
                     for (let i = 0; i < neg[numValue]; i++) {
-                        sorted[negLength - counter] = Number(numValue) * -1;
-                        counter++;
+                        //sorted[negLength - counter] = Number(numValue) * -1;
+                        //counter++;
+                        sorted[--negLength] = Number(numValue) * -1;
                     }
                 } else {
-                    sorted[negLength - counter] = Number(numValue) * -1;
-                    counter++;
+                    //sorted[negLength - counter] = Number(numValue) * -1;
+                    //counter++;
+                    sorted[--negLength] = Number(numValue) * -1;
                 }
             }
         }
