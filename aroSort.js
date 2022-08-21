@@ -61,7 +61,7 @@ const aroSort = (array) => {
 
             // Loop through the presorted keys of the neg hash table and assign their values to their rightful sorted position in the sorted array
             for (const numValue in neg) {
-                if (neg[numValue] > 1) {
+                /*if (neg[numValue] > 1) {
                     for (let i = 0; i < neg[numValue]; i++) {
                         //sorted[negLength - counter] = Number(numValue) * -1;
                         //counter++;
@@ -71,6 +71,10 @@ const aroSort = (array) => {
                     //sorted[negLength - counter] = Number(numValue) * -1;
                     //counter++;
                     sorted[--negLength] = Number(numValue) * -1;
+                }*/
+                while(neg[numValue]>0){
+                    sorted[--negLength] = Number(numValue) * -1;
+                    neg[numValue]--;
                 }
             }
         }
